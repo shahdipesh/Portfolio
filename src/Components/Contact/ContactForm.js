@@ -26,7 +26,7 @@ class ContactForm extends Component {
 
       <div className="contact"> 
 
-        <Typography variant="h3" component="h2" gutterBottom>
+        <Typography variant="h3"  gutterBottom>
           Contact Me
         </Typography>
 

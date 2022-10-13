@@ -14,7 +14,7 @@ export default class Project extends Component {
   render(props) {
     return (
       <div className="container">
-        <Card sx={{ maxWidth: 345, minHeight:400 }}>
+        <Card sx={{ maxWidth: "46vh", minHeight:'53vh' }}>
         <CardMedia
           component="img"
           height="200px"

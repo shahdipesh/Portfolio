@@ -8,7 +8,8 @@
         );
    background-size:cover;
    background-attachment:fixed;
-
+   min-height: 120vh;
+   
    
 }
 
@@ -18,8 +19,8 @@
 
 .Projects-List{
     display: flex;
-    width: 100vw;
-    height: 120vh;
+    min-width: 100vw;
+    min-height: 110vh;
     /* ÷ background-color: aqua; */
     align-items: flex-start;
     margin-top: 50px;

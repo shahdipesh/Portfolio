@@ -2,7 +2,8 @@
 
 .Container{
     background-color: aliceblue;
-    height: 95vh;
+    min-height: 95vh;
+    min-width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,3 +64,9 @@ p{
     max-width: 50%;
    border-radius: 50%;
 }
+
+@media (max-width: 800px) {
+    .IntroText, .profile-pic-container {
+      flex: 100%;
+    }
+  }

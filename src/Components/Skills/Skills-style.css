@@ -4,7 +4,7 @@
     align-items: center;
     /* background:green; */
     width: 100%;
-    height: 100vh;
+    min-height: 90vh;
   
     border-radius:"20px" ;
     background: url(
@@ -31,12 +31,17 @@
    margin-top: 50px;
     justify-content:space-evenly;
     flex-wrap: wrap;
+    /* this should cover all screen height */
+    min-height: 90vh
+
+
+
    
 
 }
 
 .Skills-Item{
- 
+   
     /* background:red; */
 }
 
