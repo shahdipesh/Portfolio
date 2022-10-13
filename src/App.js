@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+
+import * as React from 'react';
+import Button from '@mui/material/Button';
 import './App.css';
+import NavBar from './Components/NavBar/NavBar';
+import Intro from './Components/Introduction/Intro';
+import Skills from './Components/Skills/Skills';
+import 'react-circular-progressbar/dist/styles.css';
+import ContactForm from './Components/Contact/ContactForm';
+import Projects from './Components/Projects/Projects';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+     <NavBar />
+     <Intro />
+     <Skills />
+     <Projects />
+     <ContactForm />
     </div>
   );
 }

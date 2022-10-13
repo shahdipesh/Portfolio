@@ -1,0 +1,46 @@
+.form-container{
+    background: url(
+        https://images.unsplash.com/photo-1579492450119-80542d516179?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80
+        );
+    background-size:cover;
+    background-attachment:fixed;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.inputBox{
+   border-bottom: 2px solid red;
+   border: 1px solid red;
+}
+
+.contact{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 40px;
+    margin-top:10%;
+
+    
+}
+
+.contact-form > *:not(:last-child) {
+    margin-bottom: 30px; 
+    
+} 
+
+.formbtnContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

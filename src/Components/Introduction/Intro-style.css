@@ -1,0 +1,65 @@
+
+
+.Container{
+    background-color: aliceblue;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background: url(
+    https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80
+    );
+   background-size:cover;
+   background-attachment:fixed;
+
+   
+    
+}
+p{
+    /* color: white; */
+}
+.Greetings{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+}
+
+.greetingTexts{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    color: red;
+    
+}
+
+.myName{
+   /* background-color: aquamarine; */
+   margin:0;
+}
+
+.IntroText{
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto', open-sans;
+    font-weight: 600;
+    color: #000000;
+    flex: 2;
+    color:rgb(238, 228, 228);
+    font-weight: 300;
+    
+}
+
+.profile-pic-container{
+    flex:1.5;
+    display: flex;
+    justify-content: center;
+   
+}
+.profile-pic{
+    max-width: 50%;
+   border-radius: 50%;
+}
