@@ -14,7 +14,7 @@ export default class Project extends Component {
   render(props) {
     return (
       <div className="container">
-        <Card sx={{minHeight:'30vh'}}>
+        <Card>
         <CardMedia
           component="img"
           height="200px"
@@ -22,7 +22,7 @@ export default class Project extends Component {
           alt="green iguana"
           sx={{objectFit:'fill',objectPosition:'center'}}
         />
-        <CardContent sx={{height:'20vh'}}>
+        <CardContent sx={{height:'20vh',minHeight:'20vh',overflow:'scroll'}}>
           <a href={this.props.link}>
           <Typography gutterBottom variant="h5" component="div" sx={{color:'rgb(196, 47, 92)'}}>
             {this.props.name} 
