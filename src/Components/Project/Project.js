@@ -14,14 +14,15 @@ export default class Project extends Component {
   render(props) {
     return (
       <div className="container">
-        <Card sx={{ maxWidth: "46vh", minHeight:'53vh' }}>
+        <Card sx={{minHeight:'30vh'}}>
         <CardMedia
           component="img"
           height="200px"
           image={this.props.image}
           alt="green iguana"
+          sx={{objectFit:'fill',objectPosition:'center'}}
         />
-        <CardContent>
+        <CardContent sx={{height:'20vh'}}>
           <a href={this.props.link}>
           <Typography gutterBottom variant="h5" component="div" sx={{color:'rgb(196, 47, 92)'}}>
             {this.props.name} 

@@ -3,3 +3,11 @@
     height: auto;
    color: black
 }
+
+.Skill-Container{
+    display: flex;
+    width: 30vw;
+    margin-bottom: 23px;
+    justify-content: flex-end;
+    align-items: center;
+}

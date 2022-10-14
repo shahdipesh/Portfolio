@@ -14,17 +14,16 @@
 }
 
 .nextIcon{
-    margin-top: 10%;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .Projects-List{
     display: flex;
-    min-width: 100vw;
-    min-height: 110vh;
     /* ÷ background-color: aqua; */
-    align-items: flex-start;
     margin-top: 50px;
-     justify-content:space-evenly;
+     justify-content: space-around;
      flex-wrap: wrap;
+        width: 98vw;
     
 }

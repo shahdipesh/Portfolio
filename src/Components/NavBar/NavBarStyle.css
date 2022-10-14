@@ -10,6 +10,10 @@
 }
 
 a{
-    text-decoration: none;
-    color: white;
+    text-decoration:none;
+    color: rgb(181, 181, 253);
+}
+
+a:hover{
+    color: orange;
 }

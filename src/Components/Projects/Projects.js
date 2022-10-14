@@ -11,7 +11,7 @@ class Projects extends Component {
 
     this.state = {
         projects: [
-            {name:'Movie-Review App',description:'A movie review app that allows users to register and add reviews to movies. The front-end for the website is uses ReactJs and the backend is created using SpringBoot. Please refer to movie_review_backend as well for full working application',image:'https://mui.com/static/images/cards/contemplative-reptile.jpg',link:'https://github.com/shahdipesh/movie_review_frontend'},
+            {name:'Movie-Review App',description:'A movie review app that allows users to register and add reviews to movies. The front-end for the website is uses ReactJs and the backend is created using SpringBoot. Please refer to movie_review_backend as well.',image:'https://mui.com/static/images/cards/contemplative-reptile.jpg',link:'https://github.com/shahdipesh/movie_review_frontend'},
             {name:'E-Commerce App',description:'An e-commerce Shopping app that allows users to add clothing items to cart. This website uses ReactJs in composition with React-Redux to manage the state of the application',image:'https://github.com/shahdipesh/Shopping_App/blob/main/Screen%20Shot%202022-10-12%20at%202.24.45%20PM.png?raw=true',link:'https://github.com/shahdipesh/Shopping_App'},
             {name:'HuffMan Encoder',description:'A simple encoder that uses HuffMan algorithm to encode each bits of a String to achieve loseless compression. This project takes advantage of OOPS in JavaScript. Please refer to huffman_encoder_backend for full application ',image:'https://github.com/shahdipesh/huffman_encoder_frontend/blob/master/Screen%20Shot%202022-10-12%20at%202.46.23%20PM.png?raw=true',link:'https://github.com/shahdipesh/huffman_encoder_frontend'},
             {name:'Todo App',description:"A todo app that allows users to add tasks and mark them as completed. This application also used Googles' Login api to create an user and store the user info in Firebase database.",image:'https://github.com/shahdipesh/React-Redux_Todo/blob/master/Screen%20Shot%202022-10-12%20at%202.16.38%20PM.png?raw=true',link:'https://github.com/shahdipesh/React-Redux_Todo'},
@@ -36,14 +36,14 @@ class Projects extends Component {
                 
                 }
                
-               <a className="nextIcon" href="https://github.com/shahdipesh">
+               
+         </div>
+         <a className="nextIcon" href="https://github.com/shahdipesh">
                <IconButton aria-label="delete">
-                    <StartIcon fontSize={'large'}/>
-                      <Typography variant="h6">View All Projects</Typography>
+                    <StartIcon sx={{color:'orange'}} fontSize={'large'}/>
+                      <Typography variant="h5" sx={{color:'lightGreen'}}>View All Projects</Typography>
                 </IconButton>
                 </a>
-         </div>
-         
 
      </div>
    )

@@ -36,7 +36,7 @@ export default class Intro extends Component {
       
       <div className="IntroText">
         <div className="Greetings">
-          <ReactTextTransition className="greetingTexts" delay={"2s"} springConfig={presets.gentle}>
+          <ReactTextTransition className="greetingTexts" delay={"1.5s"} springConfig={presets.gentle}>
           
             <Typography  variant="h3">{this.state.greetings[this.state.index]}</Typography><br />
           </ReactTextTransition>

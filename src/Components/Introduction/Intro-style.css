@@ -32,7 +32,7 @@ p{
     /* background-color: red; */
     display: flex;
     justify-content: center;
-    color: red;
+    color: rgb(190, 190, 64);
     
 }
 
@@ -55,18 +55,16 @@ p{
 }
 
 .profile-pic-container{
-    flex:1.5;
+    flex:1.2;
+    /* background:red; */
     display: flex;
     justify-content: center;
+    max-height: 34vh;
+
    
 }
 .profile-pic{
-    max-width: 50%;
+    max-width: 30vw;
    border-radius: 50%;
+   max-height: 35vh;
 }
-
-@media (max-width: 800px) {
-    .IntroText, .profile-pic-container {
-      flex: 100%;
-    }
-  }
