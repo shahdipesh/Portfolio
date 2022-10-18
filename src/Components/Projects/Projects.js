@@ -20,29 +20,18 @@ class Projects extends Component {
             {name:'Covid-19 Tracker',description:'A covid-19 tracker that allows users to search for covid-19 stats of a particular country. This app uses free Covid stats api to fetch data using ExpressJs and then displays it to user',image:'https://github.com/shahdipesh/covid_tracker/raw/master/tracker2.png',link:'https://github.com/shahdipesh/covid_tracker'},
             {name:'SpringBoot Security',description:'A simple SpringBoot app that implements jwt tokens to protect api. You can find a SpringBoot app which implements OAUTH at my github repository',image:'https://www.bezkoder.com/wp-content/uploads/2019/10/spring-boot-authentication-jwt-spring-security-feature-image.png',link:'https://github.com/shahdipesh/SpringBootSecurity'},
         ],
-        visibility: false
-    }
-    this.handleVisibilityChange = () => {
-       this.setState({visibility: true})
-  
-  }
-
-  const style={
-    opacity: isVisible ? 1 : 0,
-    transform: isVisible ? 'translateY(0)' : 'translateY(100px)',
-    transition: 'all 2.5s linear'
-
-
-  }
     
+    }
+   
+
    return (
    
      <div className="Projects-Container">
         {isVisible?this.handleVisibilityChange():null}
          <div className="Projects-Text">
-                <Typography variant="h3" sx={{color:'white',marginTop:'20px'}}>Projects</Typography>
+                <Typography variant="h3" sx={{color:'orange',marginTop:'20px'}}>Projects</Typography>
          </div>
-         <div className="Projects-List" style={style}>
+         <div className="Projects-List" >
                 
                    {this.state.projects.map((proj,index) => {
                           return <Project name={proj.name} description={proj.description} image={proj.image} link={proj.link}/>;
@@ -68,4 +57,4 @@ class Projects extends Component {
  }
 }
 
-export default withIsVisible(Projects);
+export default Projects;

@@ -6,14 +6,32 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import './Project-Style.css';
-
-export default class Project extends Component {
+import 'intersection-observer'
+import { withIsVisible } from 'react-is-visible'
+import IsVisible from 'react-is-visible'
+class Project extends Component {
   constructor(props) {
     super(props);
+    this.state={
+      visibility: false
+    }
   }
+ 
   render(props) {
+    const { isVisible } = this.props
+    this.handleVisibilityChange = () => {
+      this.setState({visibility: true})
+  
+  }
+  const style={
+    opacity: isVisible ? 1 : 0,
+    transform: isVisible ? 'translateY(0)' : 'translateY(1  0px)',
+    transition: 'all 1s linear'
+
+
+  }
     return (
-      <div className="container">
+      <div className="container" style={style}>
         <Card>
         <CardMedia
           component="img"
@@ -39,3 +57,5 @@ export default class Project extends Component {
     )
   }
 }
+
+export default withIsVisible(Project)

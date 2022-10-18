@@ -10,7 +10,8 @@ class Skill extends Component {
   constructor(props) {
     super(props);
     this.state={
-      visibility: false
+      visibility: false,
+      hovered:false
     }
     
   }
@@ -30,26 +31,38 @@ class Skill extends Component {
       this.setState({visibility: true})
  
    }
+   this.handleHover = (status) => {
+      this.setState({hovered: status})
+
+   }
     return (
         <div className="Skill-Container" style={style}>
           {isVisible?this.handleVisibilityChange():null}
-            <div>
-            <CircularProgressbar className="CircularProgress" background="true" value={this.props.value} text={this.props.text} 
-             styles={{ text: {
-              // Text color
-              fill: 'green',
-              // Text size
-              fontSize: '15px'
+            <div onMouseLeave={()=>this.handleHover(false)}   onMouseOver={()=>this.handleHover(true)}>
+            <CircularProgressbar 
+              className="CircularProgress"
+              background="true" 
+              value={this.props.value} 
+            
+              text={this.state.hovered?this.props.myExperience:this.props.text} 
+              styles={{ text: {
+                // Text color
+                fill: !this.state.hovered?'green':'grey',
+                // Text size
+                fontSize: '15px',
+                // if hovered then decrease font sizes
+                fontSize: this.state.hovered?'18px':'15px'
+                
 
-            },
-            background: {
-              fill:'rgb(240, 236, 235)',
-            },
-            path: {
-              // Path color
-              stroke: `rgb(78, 131, 138)`,
-            }
-          }}
+              },
+              background: {
+                fill:'rgb(240, 236, 235)',
+              },
+              path: {
+                // Path color
+                stroke: `rgb(78, 131, 138)`,
+              }
+            }}
             />
             </div>
         </div>
