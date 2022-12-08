@@ -42,11 +42,11 @@ export default class Intro extends Component {
           </ReactTextTransition>
             <p className="myName" > I am Dipesh. <br /> </p>
         </div>
-        <p> A fullStack developer and Certified Ethical Hacker. I am currently seeking an internship or full-time position in the industry in order to gain more experience and knowledge.</p>
+        <p>A Third-year Computer Science Student. <br></br> I am currently seeking an internship or Full-time Position to gain more experience and knowledge.</p>
 
       </div>
       <div className="profile-pic-container">
-          <img className="profile-pic" src={"https://scontent-ort2-2.xx.fbcdn.net/v/t1.6435-9/107249649_2832814370332795_7721637612072046717_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=HwrFmBFlbRkAX9qKMaL&tn=cw_RZ_tbcnQGeVHI&_nc_ht=scontent-ort2-2.xx&oh=00_AT9roZvUigxciNk-WkwbfHfRX5hig9K0-LS8qcbcnoSp8Q&oe=636CF15B"} alt="profile-pic" />
+          <img className="profile-pic" src={"https://media.licdn.com/dms/image/C4D03AQGc4OqNScpDGg/profile-displayphoto-shrink_800_800/0/1596342015387?e=1675900800&v=beta&t=Z4phrkY2mcQc6I3GUvLCdipuS-dzxNhiHNI_jz9AgcA"} alt="profile-pic" />
             
        </div>
 
