@@ -2,20 +2,18 @@
 
 .Container{
     background-color: aliceblue;
-    min-height: 100vh;
-    min-width: 100vw;
-    max-width: 100vw;
-    
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
    background: url(
     https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80
     );
-   background-size:cover;
-   background-attachment:fixed;
-   background-position: center;
-   background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    height: 100vh;
+
+
 
 }
 p{
@@ -42,7 +40,8 @@ p{
 }
 
 .intro-text{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
+    margin-top: 2rem;
     width: 90%;
     margin-left: 2%;
     text-align: center;
