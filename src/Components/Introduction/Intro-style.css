@@ -2,8 +2,9 @@
 
 .Container{
     background-color: aliceblue;
-    min-height: 95vh;
+    min-height: 100vh;
     min-width: 100vw;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,6 +27,7 @@ p{
     align-items: center;
     flex-direction: column;
     color:white;
+    font-family: 'Roboto', open-sans;
 }
 
 .greetingTexts{
@@ -33,6 +35,11 @@ p{
     display: flex;
     justify-content: center;
     color: rgb(190, 190, 64);
+    
+    
+}
+
+.intro-text{
     
 }
 

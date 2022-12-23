@@ -13,7 +13,7 @@ class NavBar extends Component {
     <div className="NavBarContainer">
       <Box sx={{ flexGrow: 1}}>
         <AppBar  position="static">
-          <Toolbar  sx={{color:'black',background:`url(https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)` }}>
+          <Toolbar  sx={{background:'black' }}>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             </Typography>
             <Button className="NavBarButton" variant="Contained">

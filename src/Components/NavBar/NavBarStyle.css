@@ -6,7 +6,8 @@
 }
 
 .NavBarContainer{
-
+    position: fixed;
+    width: 100%;
 }
 
 a{
@@ -15,5 +16,5 @@ a{
 }
 
 a:hover{
-    color: rgb(34, 193, 174);
+    color: green;
 }
