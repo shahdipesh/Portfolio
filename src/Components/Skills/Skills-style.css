@@ -1,6 +1,5 @@
 .Skills-Container{
     display: flex;
-
     flex-direction: column;
     align-items: center;
     /* background:green; */
@@ -28,18 +27,17 @@
    width: 100%;
    height: 100%;
    /* ÷ background-color: aqua; */
-   align-items: flex-start;
-   margin-top: 50px;
+    align-items: flex-start;
+    margin-top: 50px;
     justify-content:space-evenly;
     flex-wrap: wrap;
     /* this should cover all screen height */
-    min-height: 90vh
-
-
-
-   
+    min-height: 90vh   
 
 }
+
+
+
 
 .Skills-Item{
    

@@ -42,7 +42,7 @@ export default class Intro extends Component {
           </ReactTextTransition>
             <p className="myName" > I am Dipesh. <br /> </p>
         </div>
-        <p className="intro-text"> I am currently seeking an internship or Full-time Position to gain more experience and knowledge.</p>
+        <p className="intro-text"> I am a computer science student with a strong desire to use my technical skills and knowledge to make a positive impact in the world.<br></br> I am excited to continue learning and growing as a developer, and am eager to take on new challenges and opportunities in the field.<br></br></p>
 
       </div>
       <div className="profile-pic-container">
