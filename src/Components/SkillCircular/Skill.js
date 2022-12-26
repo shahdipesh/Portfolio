@@ -20,16 +20,18 @@ class Skill extends Component {
   render(props) {
     const percentage = 66;
     const { isVisible } = this.props;
+  
 
     const style={
       opacity: isVisible ? 1 : 0,
       transform: isVisible ? 'translateX(0px)' : 'translateX(100px)',
       transition: 'all 1s linear',
+    
   
     }
     this.handleVisibilityChange = () => {
       this.setState({visibility: true})
- 
+      
    }
    this.handleHover = (status) => {
       this.setState({hovered: status})

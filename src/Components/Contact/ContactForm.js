@@ -29,9 +29,7 @@ class ContactForm extends Component {
     sendEmail(templateParams);
     this.setState({displaySuccessMsg:true});
     //clear the states
-    this.setState({name:''});
-    this.setState({email:''});
-    this.setState({message:''});
+    this.setState({name: '', email: '', message: ''});
 
   }
 
