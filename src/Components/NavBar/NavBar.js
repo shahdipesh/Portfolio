@@ -26,6 +26,11 @@ class NavBar extends Component {
               <Typography variant="h6">LinkedIn</Typography>
               </a>
               </Button>
+              <Button className="NavBarButton" variant="Contained">
+            <a href="#certificates" >
+              <Typography variant="h6">Certificates</Typography>
+            </a>
+              </Button>
             <Button className="NavBarButton" variant="Contained">
             <a href="#contact" >
               <Typography variant="h6">Contact</Typography>
