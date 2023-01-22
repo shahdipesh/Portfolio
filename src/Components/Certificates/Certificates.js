@@ -10,7 +10,7 @@ import "./Certificates.css"
 
 export default function TitlebarImageList() {
   return (
-    <div className="CertificateContainer">
+    <div className="CertificateContainer" id="certificates">
     <ImageList sx={{ width: '80vw', height: '100vw' }}>
       <ImageListItem key="Subheader" cols={2}>
       <div className="Certificate-Title">
