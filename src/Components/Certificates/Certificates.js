@@ -14,7 +14,7 @@ export default function TitlebarImageList() {
     <ImageList sx={{ width: '80vw', height: '100vw' }}>
       <ImageListItem key="Subheader" cols={2}>
       <div className="Certificate-Title">
-                <Typography variant="h3" sx={{color:'orange',marginTop:'20px'}}>Certificates</Typography>
+                <Typography variant="h3" sx={{color:'orange',marginTop:'20px'}}>Certifications</Typography>
          </div>
       </ImageListItem>
       {itemData.map((item) => (

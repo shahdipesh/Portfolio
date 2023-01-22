@@ -28,7 +28,7 @@ class NavBar extends Component {
               </Button>
               <Button className="NavBarButton" variant="Contained">
             <a href="#certificates" >
-              <Typography variant="h6">Certificates</Typography>
+              <Typography variant="h6">Certifications</Typography>
             </a>
               </Button>
             <Button className="NavBarButton" variant="Contained">
