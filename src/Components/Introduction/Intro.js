@@ -46,7 +46,7 @@ export default class Intro extends Component {
 
       </div>
       <div className="profile-pic-container">
-          <img className="profile-pic" src={"https://media.licdn.com/dms/image/C4D03AQGc4OqNScpDGg/profile-displayphoto-shrink_800_800/0/1596342015387?e=1675900800&v=beta&t=Z4phrkY2mcQc6I3GUvLCdipuS-dzxNhiHNI_jz9AgcA"} alt="profile-pic" />
+          <img className="profile-pic" src={"https://i.ibb.co/yQHf386/pp.jpg"} alt="profile-pic" />
             
        </div>
 
