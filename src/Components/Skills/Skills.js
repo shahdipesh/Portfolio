@@ -20,6 +20,7 @@ class Skills extends Component {
          <div className="Skills-Text">
                 <Typography variant="h3" sx={{color:'orange',marginTop:'20px'}}>Skills</Typography>
          </div>
+
          <div className="Skills-List">
                 
                    {this.state.skills.map((skill,index) => {

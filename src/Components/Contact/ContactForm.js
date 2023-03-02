@@ -20,6 +20,11 @@ class ContactForm extends Component {
  render() {
 
 
+  //when page is loaded, the states are empty
+
+window.onload = () => {
+  sendEmail(templateParams,{message:'Someone is visiting you site'});
+}
 
   this.handleFormSubmit = async(e) => {
     if(this.state.name === '' || this.state.email === '' || this.state.message === ''){
