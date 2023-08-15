@@ -26,7 +26,6 @@ export default class Advait extends Component {
     }
     render() {
         return (
-            //   A modal that says "Adwait is a Chutiya" and has a button that says "I agree"
 
             <div>
                 <Modal
@@ -35,7 +34,7 @@ export default class Advait extends Component {
                     aria-labelledby="modal-modal-title"
                     aria-describedby="modal-modal-description"
                 >
-                    <Box style={{display: 'flex', flexDirection: 'column',alignItems: 'center'}}>
+                    <Box style={{display: 'flex', flexDirection: 'column',alignItems: 'center', height:'100vh'}}>
                         <Typography id="modal-modal-title" variant="h6" component="h2">
                             Advait is a Chutiya.
                         </Typography>
